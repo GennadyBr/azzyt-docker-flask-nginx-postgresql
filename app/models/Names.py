@@ -8,7 +8,7 @@ class Names(conn.Model):
     Пример модели для работы с базой данныз
     """
     id = conn.Column(conn.Integer, primary_key=True)
-    name = conn.Column(conn.String(80), unique=False, nullable=False)
+    name = conn.Column(conn.String(100), unique=False, nullable=False)
     amount = conn.Column(conn.Integer(), unique=True, nullable=False)
 
     def fill_random(self):
