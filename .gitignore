@@ -2,3 +2,4 @@
 /.idea/
 /pg_db/
 __pycache__
+/venv/
